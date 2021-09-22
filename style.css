@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Droid Arabic Kufi'), local('DroidArabicKufi'), url(http://themes.googleusercontent.com/static/fonts/droidarabickufi/v3/8W45GN15zj1qR-20QwKIxqPi4JPRJMb6v4DHFDoSX-k.ttf) format('truetype');
+}
+body {
+    color:#20292f;
+    font-family: 'Droid Arabic Kufi', Oswald;
+    font-size: 16px;
+     background: #f8f8f8;
+}
+nav.navbar.navbar-default.navbar-top {
+    background: #0c0b39;
+    position: relative;
+    line-height: 41px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+    border: 0;
+}
+.navbar-default.navbar-top .navbar-collapse {
+    padding-top: 0;
+}
+nav.navbar.navbar-default.navbar-top ul{
+    margin-bottom: 0;
+}
+nav.navbar.navbar-default.navbar-top ul li {
+    display: inline-block;
+    padding: 5px;
+}
+.navbar-top li.selected {
+    background: #ff8000;
+}
+nav.navbar.navbar-default.navbar-top ul li a {
+    display: block;
+    padding: 0 10px;
+    font-size: 13px;
+    color: #ddd;
+}
+.navbar-default {
+     border-color: #e7e7e700;
+     padding: 10px 0;
+     transition: all 0.5s;
+     z-index: 997;
+     background: #0c0b39;
+    border-radius: 0;
+}
+.navbar-default .navbar-collapse{
+    border-color: #fff;
+    padding-top:0;
+}
+.top-nav-collapse{
+    position: fixed;
+    box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
+    background: #fff;
+    transition: all 0.5s;
+}
+.navbar-toggle {
+     float: right;
+     margin-right: 15px;
+     margin-left: auto;
+}
+.navbar-brand {
+     float: left !important;
+}
+.navbar-header {
+     padding-top: 24px;
+}
+.navbar-default .navbar-nav>.active>a{
+     transition: all 0.5s;
+     color: #5e5e5e;
+     background-color: #ffffff;
+}
+.navbar-default .navbar-nav>.active>a:hover {
+     color: #ffffff;
+     background-color: #5e5e5e;
+}
+.navbar-default .navbar-nav>li {
+     list-style: none;
+}
+.navbar-default .navbar-nav>li>a {
+     color: #ddd;
+     font-weight: bold;
+     font-size: 14px;
+     text-transform: capitalize;
+     outline: none;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ff8000;
+}
+.navbar-default .navbar-brand {
+     color: #2196F3;
+     font-size: 24px;
+     font-weight: bold;
+}
+.navbar-default .navbar-nav>li>span {
+     padding-top: 15px;
+     padding-bottom: 10px;
+     line-height: 20px;
+     display: block;
+     color: #ddd;
+     font-weight: bold;
+     font-size: 14px;
+}
+header {
+     width: 100%;
+     padding:50px 0;
+     background: #ffffff;
+}
+header img {
+     max-height: 200px;
+     width: 100%;
+}
+h1.title {
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+}
+section.main {
+     background: #ffffff;
+     padding: 50px 0;
+}
+aside {
+     background: #fafaff;
+     border: 1px solid #eee;
+     padding: 10px;
+}
+aside ul{
+padding: 0;
+}
+li {
+    padding: 10px 0;
+}
+aside a{
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+}
+.post-outer {
+     width: 100%;
+     margin: 0 auto 40px auto;
+     transition: 0.3s;
+     display: inline-block;
+     height: auto;
+     background-color: #ffffff;
+     line-height: 2;
+     border-radius: 1px;
+     z-index: 1;
+     box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.15);
+}
+.post-outer:hover {
+     box-shadow: 0px 12px 19px -7px rgba(0, 0, 0, 0.3);
+     transform: translateY(-10px);
+     -webkit-transform: translateY(-10px);
+     -ms-transform: translateY(-10px);
+     -moz-transform: translateY(-10px);
+}
+h3.post-title.entry-title {
+    display: block;
+    font-size: 20px;
+    text-align: right;
+    text-decoration: none;
+    margin: 0 0 10px;
+    padding: 0;
+    min-height: auto;
+    max-height: none;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #111315;
+    font-family: 'Droid Arabic Kufi', Oswald;
+    width: 66.66666667%;
+    float: left;
+}
+h3.post-title.entry-title a {
+    display: block;
+    font-size: 20px;
+    text-align: right;
+    text-decoration: none;
+    margin: 0;
+    padding: 0 15px;
+    min-height: auto;
+    max-height: none;
+    font-weight: 700;
+    line-height: 1.7;
+    color: #111315;
+    font-family: 'Droid Arabic Kufi', Oswald;
+    text-decoration: none;
+}
+h3.post-title.entry-title a:hover {
+    color:#ff8000;
+}
+p.main-art {
+     padding: 0;
+     line-height:1.7;
+     text-align: right;
+     float: right;
+     overflow: hidden;
+     font-family: 'Droid Arabic Kufi', Oswald;
+}
+.col-md-12.Share {
+    margin-top: 15px;
+}
+.col-md-12.Share .fa {
+    font-size: 20px;
+    color: #ff8000;
+}
+.text-center.more {
+    text-align: center;
+    float: left;
+    margin-bottom: 15px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+a.des-more {
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 50px;
+    color: #0c0b39;
+    border: 1px solid #0c0b39;
+    background: #fff;
+    float: none;
+    margin: 0 auto 15px;
+    overflow: hidden;
+    max-width: 170px;
+    padding: 5px 17px;
+    border-radius: 20px;
+}
+.des-more:hover {
+    color: #fff;
+    background: #0c0b39;
+    border: 1px solid transparent;
+}
+ aside .widget h2 {
+     font-size: 16px;
+     background:#0c0b39;
+     color: #fff;
+     text-align: center;
+     padding: 20px 0px;
+    
+}
+footer {
+    background:#0c0b39;
+    padding: 20px 0 0;
+    color: #555555;
+}
+footer .widget h2 {
+    position: relative;
+    margin-bottom: 37px;
+    font-size:16px;
+    color: #ffffff;
+    font-weight: bold;
+}
+footer .widget h2:before {
+    background: #ffffff;
+    content: "";
+    height: 3px;
+    left: auto;
+    position: absolute;
+    width: 75%;
+    top: 33px;
+    right: 0;
+    float: none;
+    margin: auto;
+}
+footer li {
+    list-style: none;
+    padding: 6px 0;
+}
+footer a {
+    color: #ffffff;
+}
+ 
+.footer-bottom {
+    background: #ff8000;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: #555555;
+    font-weight: bold;
+}
+.FollowByEmail .follow-by-email-inner .follow-by-email-address {
+    padding: 1px 6px;
+    border: 1px solid #ffffff;
+    width: 98% !important;
+    height: 35px !important;
+}
+.FollowByEmail .follow-by-email-inner .follow-by-email-submit {
+    width: 60px;
+    margin: 0;
+    margin-right: 8px;
+    margin-left: 0;
+    border: 0;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    background: #ff8000;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    height: 35px;
+    z-index: 0;
+}
+span.post-comment-link {
+    display: none;
+}
+.post-footer {
+    display: none;
+}
+li {
+    list-style: none;
+}
+@media screen and (max-width: 992px){
+h3.post-title.entry-title {
+    width: 100%;
+    float: none;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.col-md-4.main-img img {
+    max-height: 400px;
+    height: auto;
+margin-bottom: 15px;
+}
+.text-center.more {
+    float: none;
+}
+.col-md-6.Share-inner {
+    text-align: center;
+    margin: 15px 0;
+    display: block;
+    overflow: hidden;
+    border-top: 1px #ddd solid;
+    padding-top: 11px;
+}
+}
+@media screen and (max-width: 768px){
+h3.post-title.entry-title {
+    width: 100%;
+    float: none;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+}
+]]></b:skin>
+ <!-- صفحة المواضيع -->
+<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<style type='text/css'>
+.post-outer {
+    padding: 0 20px;
+}
+.post-outer:hover {
+transform: none;
+}
+.post-outer img {
+    max-width: 100%;
+    width: 100%;
+    max-height: 600px;
+    height: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block;
+}
+h3.post-title.entry-title{
+  width: 100%;
+    float: none;
+  }
